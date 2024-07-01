@@ -249,9 +249,15 @@
                             </div>
     
                             <div uk-lightbox>
-                                <a href="{{post.image.url}}">  
+                                <a onclick="log_console()" href="{{post.image.url}}">  
                                     <img src="{{post.image.url}}" alt="">
                                 </a>
+                                <script>
+            function log_console() {
+                
+                console.log({{post.image.url}});
+            }
+        </script>
                             </div>
                             
     
