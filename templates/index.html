@@ -249,15 +249,11 @@
                             </div>
     
                             <div uk-lightbox>
-                                <a onclick="log_console()" href="{{post.image.url}}">  
+                                <a  href="{{post.image.url}}">  
                                     <img src="{{post.image.url}}" alt="">
+                                    <h1>{{post.image.url}}</h1>
                                 </a>
-                                <script>
-            function log_console() {
-                
-                console.log({{post.image.url}});
-            }
-        </script>
+                               
                             </div>
                             
     
