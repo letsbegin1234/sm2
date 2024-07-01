@@ -5,4 +5,4 @@ python3 manage.py collectstatic --no-input
 
 python3 manage.py migrate
 
-echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('owner', 'arjunreddyog@gmail.com', '1234')" | python manage.py shell
+echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('user', 'arjunreddy@gmail.com', '1234')" | python manage.py shell
